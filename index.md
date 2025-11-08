@@ -1,6 +1,9 @@
 # Posts | Articles
 
-## Posts
+## AI | Agent Articles & Research
+- [The Agentic Paradigm: From Flow to Governance](./posts/agentic-dev-future-research.html)
+
+## Technical Posts
 - [When to Hack a DACPAC](./posts/2023-08-26-when-to-hack-dacpac.html)
 - [SQL Set Behavior in Subquery Rewinds](./posts/2023-07-01-subquery-rewinds.html)
 - [Entity Framework Assessment](./posts/2012-07-04-ef-assessment.html)
