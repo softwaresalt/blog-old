@@ -10,7 +10,7 @@ The current moment could be viewed as the next phase in a historical evolution. 
 
 We are at the inception of "Agentic Engineering." [^3] This paradigm is informed by Agentic AI, an advanced application of artificial intelligence defined by "autonomous decision-making and action." [^5] Unlike traditional AI, which is *reactive*, agentic AI is *proactive*. [^6] It is a system that can "set goals, plan, and execute tasks with minimal human intervention." [^5] This is achieved by employing multiple "AI agents," which serve as the building blocks for complex, multi-step workflows. [^5]
 
-This shift can be framed as three distinct stages of AI-powered development[^7]:
+This shift can be framed as three distinct stages of AI-powered development: [^7]
 
 1. **Stage 1: Traditional Development.** The developer's guiding question is, "How do I implement this feature?" [^7]
 2. **Stage 2: AI-Assisted Development (SE 2.0).** This is the current "Copilot" era, which has moved the field into AI-Augmented development. [^8] The developer's question becomes, "How can Copilot help me implement this faster?" [^7] This stage is defined by "vibe-coding"—a "guess and check" pattern where a developer describes a goal, gets a block of code, and iterates. [^9]
@@ -41,7 +41,7 @@ GitHub Copilot is evolving from a simple code-completion tool into a multi-facet
 
 ### **2.2 GitHub SpecKit: A Framework for Product Intent**
 
-GitHub SpecKit[^13][^16] is an open-source toolkit designed to formalize the SDD process and place "governance at the heart of the AI-assisted workflow." It provides a CLI (specify) and a structured series of slash commands that guide a human-agent team from idea to implementation, ensuring the spec remains the "central, continuously-referenced artifact."
+GitHub SpecKit [^13] [^16] is an open-source toolkit designed to formalize the SDD process and place "governance at the heart of the AI-assisted workflow." It provides a CLI (specify) and a structured series of slash commands that guide a human-agent team from idea to implementation, ensuring the spec remains the "central, continuously-referenced artifact."
 
 The core workflow follows five distinct phases :
 
@@ -76,7 +76,7 @@ The following table provides a comparative analysis of these emerging toolchains
 | **Team Collab Model** | Individual-focused. **Agent mode** allows direct edits [^12], and **Coding Agent** works in the cloud [^15], but team-level coordination of *intent* is immature. | **Emerging:** Based on version-controlling shared spec files in Git branches. Prone to "spec" merge conflicts. | **Tool-centric:** Focused on experts *creating and sharing* reusable tools, not on teams co-developing a single product. |
 | **Primary User** | Individual Developer. [^14] | Product Manager / Architect / Team Lead. | Domain Expert (e.g., Security, Design, Finance). |
 
-These tools are not mutually exclusive; they are complementary. A mature agentic workflow will likely involve a SpecKit-driven *product development* process that, as part of its /speckit.plan[^11], invokes an Amplifier-built *expert tool*[^15] via an MCP server[^16] to perform a specialized task like a security audit.
+These tools are not mutually exclusive; they are complementary. A mature agentic workflow will likely involve a SpecKit-driven *product development* process that, as part of its /speckit.plan [^11], invokes an Amplifier-built *expert tool* [^15] via an MCP server [^16] to perform a specialized task like a security audit.
 
 ## **Section 3: The New Economics: Reshaping Velocity, Teams, and Talent**
 
