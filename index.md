@@ -1,6 +1,7 @@
 # Posts | Articles
 
 ## AI | Agent Articles & Research
+- [Chimera Coding - An AI Engineering Process](./posts/chimera-coding-and-process.html)
 - [The Agentic Paradigm: From Flow to Governance](./posts/agentic-dev-future-research.html)
 
 ## Technical Posts
