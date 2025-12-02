@@ -184,7 +184,7 @@ To maximize the effectiveness of your AI, explicitly invoke a specific "Persona"
 5. **The Reviewer:** Critical. Checks for style violations, best practices, and potential refactoring needs.  
 6. **The Security Engineer:** Paranoid. Checks for injections, auth bypasses, and PII handling.
 
-We recommend creating a separate markdown file for each persona to hold a well defined system prompt for each persona.  You can name them persona.architect.md, for each of the key personas.  If you are using GitHub Copilot, you can define those personas in distinct chat-mode files to get the same end result.
+We recommend creating a separate markdown file for each persona to hold a well defined system prompt for that persona.  An example naming convention might be persona.architect.md.  If you are using GitHub Copilot, you can define those personas in distinct chat-mode files to achieve the same end result.  See the reference artifacts section for example persona system prompt artifacts.
 
 ## **Part 6: The Workflow (The Loop)**
 
