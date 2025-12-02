@@ -66,7 +66,7 @@ my-project/
 │   │   └── PROJ-101-user-auth.md  \<-- Prefixed with Jira/GitHub ID  
 │   ├── archive/           \<-- Completed features (for reference)  
 │   └── adr/               \<-- Architectural Decision Records (The Anchors)  
-│       └── PROJ-101-db-choice.md  \<-- Linked to the ticket that forced the decision  
+│   │   └── PROJ-101-db-choice.md  \<-- Linked to the ticket that forced the decision  
 ├── src/  
 ├── package.json  
 └── README.md
