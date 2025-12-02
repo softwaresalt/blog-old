@@ -2,7 +2,8 @@
 
 The Core Philosophy: Process Over Platform  
 This methodology is grounded in Kasparov's Law:  
-*"A weak human \+ a machine \+ a better process beats a strong human \+ a machine \+ an inferior process."*
+
+> *"A weak human \+ a machine \+ a better process beats a strong human \+ a machine \+ an inferior process."*
 
 We believe that a better development process isn't about buying a new tool, switching IDEs, or installing a complex CLI framework. It is about aligning how humans naturally think with how AI naturally works.
 
@@ -51,7 +52,7 @@ Every organization has unique constraints, regulatory requirements, and team str
 
 You do not need plugins. You just need a structured place to store your "Shared Brain."
 
-### **1\. The Directory Structure**
+### **1. The Directory Structure**
 
 In your existing Git repository, create a dedicated folder for your context. We recommend .context because it self-describes intent.
 
@@ -73,7 +74,7 @@ my-project/
 Why match the IDs?  
 By matching your filename (PROJ-101...) to your DevOps ticket, you prepare your repo for Model Context Protocol (MCP) integrations. An AI agent with MCP access can read the file ID, automatically fetch the corresponding requirements from Jira/Azure, and even update the ticket status when you finish—bridging the gap between code and management.
 
-### **2\. The Golden Rule**
+### **2. The Golden Rule**
 
 **Never start coding without a Context File.** Before you write a line of code, you must anchor your work in the existing system context and define the specific problem in a feature file.
 
@@ -85,21 +86,24 @@ ICDD relies on four simple Markdown artifacts.
 
 Filepath: .context/system\_context.md (or .context/system/\*.md)  
 The "Constitution" of your project.  
-\# System Context: \[Project Name\]
 
-\#\# 1\. The Users & Stakeholders  
-\* \*\*Primary User:\*\* \[e.g., Senior Data Analyst\] who values precision over speed.  
-\* \*\*Stakeholder:\*\* \[e.g., Security Team\] requires all PII to be encrypted at rest.  
-\* \*\*Stakeholder:\*\* \[e.g., Marketing\] requires all UI components to match the Design System.
+```markdown
+# System Context: [Project Name]
 
-\#\# 2\. The Technology Stack  
-\* \*\*Language:\*\* TypeScript 5.0+  
-\* \*\*Framework:\*\* React 18 (Next.js App Router)  
-\* \*\*Database:\*\* PostgreSQL via Supabase
+## 1. The Users & Stakeholders  
+* **Primary User:** [e.g., Senior Data Analyst] who values precision over speed.  
+* **Stakeholder:** [e.g., Security Team] requires all PII to be encrypted at rest.  
+* **Stakeholder:** [e.g., Marketing] requires all UI components to match the Design System.
 
-\#\# 3\. Global Constraints  
-\* No new external dependencies without approval.  
-\* All code must pass strict linting rules defined in \`.eslintrc\`.
+## 2. The Technology Stack  
+* **Language:** TypeScript 5.0+  
+* **Framework:** React 18 (Next.js App Router)  
+* **Database:** PostgreSQL via Supabase
+
+## 3. Global Constraints  
+* No new external dependencies without approval.  
+* All code must pass strict linting rules defined in `.eslintrc`.
+```
 
 Recommendation: The "Text-First" Standard  
 Organizations often produce visual artifacts like architecture diagrams, extensive slide decks, or whiteboard sketches. While these are excellent for human-to-human communication, they are often lossy or opaque to AI agents.  
@@ -109,56 +113,65 @@ Organizations often produce visual artifacts like architecture diagrams, extensi
 
 Filepath: .context/backlog.md  
 A low-friction list of ideas.  
-\# Dynamic Backlog
 
-\#\# v2.1 Release (Current Sprint)  
-\- \[ \] \*\*PROJ-123:\*\* Implement Magic Links (replaces password login).  
-\- \[ \] \*\*PROJ-124:\*\* Add "Export to CSV" for the finance team.
+```markdown
+# Dynamic Backlog
 
-\#\# v2.2 Release (Planning)  
-\- \[ \] Dark mode support?
+## v2.1 Release (Current Sprint)  
+- [ ] **PROJ-123:** Implement Magic Links (replaces password login).  
+- [ ] **PROJ-124:** Add "Export to CSV" for the finance team.
+
+## v2.2 Release (Planning)  
+- [ ] Dark mode support?
+```
 
 ### **Artifact C: The Feature Context File (Local)**
 
-Filepath: .context/active/\[TICKET-ID\]-\[feature-name\].md  
+Filepath: .context/active/[TICKET-ID\]-[feature-name\].md  
 The living workspace for a specific unit of work.  
-\# Feature: \[Ticket ID\] \- \[Feature Name\]  
-\*\*Status:\*\* In Progress  
-\*\*Owner:\*\* \[Your Name\]  
-\*\*Related Ticket:\*\* \[Link to Jira/GitHub/Azure Issue\]
 
-\#\# 1\. The Vision  
-\*In plain English, describe what we are building and why.\*
+```markdown
+# Feature: [Ticket ID] - [Feature Name]  
+**Status:** In Progress  
+**Owner:** [Your Name]  
+**Related Ticket:** [Link to Jira/GitHub/Azure Issue]
 
-\#\# 2\. Constraints & "Must-Haves"  
-\* Must align with \`.context/system\_context.md\`.  
-\* Must match existing UI styling.
+## 1. The Vision  
+*In plain English, describe what we are building and why.*
 
-\#\# 3\. The Plan (Living Document)  
-\*Initialize this as a high-level list.\*  
-\- \[ \] Step 1: \[TBD\]  
-\- \[ \] Step 2: \[TBD\]
+## 2. Constraints & "Must-Haves"  
+* Must align with `.context/system_context.md`.  
+* Must match existing UI styling.
 
-\#\# 4\. Current State / Scratchpad  
-\*Paste error logs or temporary JSON structures here.\*
+## 3. The Plan (Living Document)  
+*Initialize this as a high-level list.*  
+- [ ] Step 1: [TBD]  
+- [ ] Step 2: [TBD]
+
+## 4. Current State / Scratchpad  
+*Paste error logs or temporary JSON structures here.*
+```
 
 ### **Artifact D: The Anchor (ADR)**
 
 Filepath: .context/adr/\[TICKET-ID\]-\[title\].md  
 For major architectural decisions. Using the ticket ID here helps future developers understand why a decision was made at that specific moment in time.  
-\# ADR-\[Ticket ID\]: \[Title\]  
-\*\*Date:\*\* \[YYYY-MM-DD\]  
-\*\*Status:\*\* Accepted
 
-\#\# Context  
+```markdown
+# ADR-[Ticket ID]: [Title]  
+**Date:** [YYYY-MM-DD]  
+**Status:** Accepted
+
+## Context  
 We needed to choose between A and B because...
 
-\#\# Decision  
-We chose \[Option A\].
+## Decision  
+We chose [Option A].
 
-\#\# Consequences  
-\* \*\*Positive:\*\* Faster development time.  
-\* \*\*Negative:\*\* Higher memory usage.
+## Consequences  
+* **Positive:** Faster development time.  
+* **Negative:** Higher memory usage.
+```
 
 ## **Part 5: The Six Key Personas**
 
@@ -252,11 +265,10 @@ Why choose ICDD? Because it prioritizes human cognitive flow over rigid tooling.
 | **Cognitive Load** | **High.** Must learn CLI commands and config schemas. | **High.** Must constantly remind AI of constraints. | **Low.** Constraints are offloaded to text files. |
 | **Process Friction** | **High.** Rigid steps that block exploration. | **Low.** But prone to errors and amnesia. | **Fluid.** Supports iterative discovery. |
 | **Tool Dependency** | **High.** Locked into specific ecosystems. | **High.** Dependent on one model/interface. | **None.** Works in any editor, with any AI. |
-| **Stakeholder Visibility** | **Variable / Tool Dependent.**\[^1\] | Non-existent. | **Front-and-center in system\_context.md.** |
+| **Stakeholder Visibility** | **Variable / Tool Dependent.**[^1] | Non-existent. | **Front-and-center in system\_context.md.** |
 
 ### **The Bottom Line**
 
 Complexity is the enemy of execution. You do not need a smarter tool; you need a process that respects how you think. ICDD allows you to explore, iterate, and build complex software without becoming a slave to your tools.
 
-\[^1\]:  
-Nuance on Visibility: Tools like Backlog.md CLI and Spec-Kit use accessible Markdown (e.g., backlog.md, Constitution.md), similar to ICDD. However, "Heavy Frameworks" often couple these readable files with strict syntax, metadata headers, or CLI-specific requirements that can make them feel more like configuration inputs for an automation pipeline rather than pure communication documents for the team.
+[^1]: Nuance on Visibility: Tools like Backlog.md CLI and Spec-Kit use accessible Markdown (e.g., backlog.md, Constitution.md), similar to ICDD. However, "Heavy Frameworks" often couple these readable files with strict syntax, metadata headers, or CLI-specific requirements that can make them feel more like configuration inputs for an automation pipeline rather than pure communication documents for the team.
