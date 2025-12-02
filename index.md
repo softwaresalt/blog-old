@@ -3,6 +3,7 @@
 ## AI | Agent Articles & Research
 - [Chimera Coding - An AI Engineering Process](./posts/chimera-coding-and-process.html)
 - [The Agentic Paradigm: From Flow to Governance](./posts/agentic-dev-future-research.html)
+- [AI Software Development Process: Iterative Context-Driven Development](./posts/icdd.html)
 
 ## Technical Posts
 - [When to Hack a DACPAC](./posts/2023-08-26-when-to-hack-dacpac.html)
