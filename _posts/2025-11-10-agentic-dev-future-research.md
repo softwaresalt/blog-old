@@ -1,4 +1,15 @@
-# **The Agentic Paradigm: From Individual 'Flow' to Team-Based Governance in Software Engineering**
+---
+title: "The Agentic Paradigm: From Individual 'Flow' to Team-Based Governance in Software Engineering"
+date: 2025-11-10
+layout: single
+categories:
+  - Engineering/AI
+tags:
+  - AI
+  - Process
+---
+
+## **The Agentic Paradigm: From Individual 'Flow' to Team-Based Governance in Software Engineering**
 
 ## **Section 1: The Agentic Transformation of Software Engineering**
 

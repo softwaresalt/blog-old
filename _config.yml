@@ -1,8 +1,34 @@
 remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "contrast"
 title: "Blog | Derek Williams"
-description: "Depth articles on data and software engineering with a point of view. I may digress into Agile process, leadership, and other topics.<p><b><a href='https://blog.softwaresalt.com/'>Home</a></b></p><p><img src='https://blog.softwaresalt.com/assets/images/avatar.me.png' width=192 height=200 /></p>"
-author: Derek Williams
+description: "Depth articles on data and software engineering with a point of view. I may digress into Agile process, leadership, and other topics."
 email: softwaresalt@gmail.com
-twitter_username: softwaresalt
-github_username:  softwaresalt
-linkedin_username: softwaresalt
+
+plugins:
+  - jekyll-include-cache
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      share: true
+
+author:
+  name: "Derek Williams"
+  avatar: "/assets/images/avatar.me.png" # We will add this file in Step 2
+  bio: "Software/Data Engineer working consulting space for 25+ years. Ex Avanaut. I find my flow in building things."
+  location: "Seattle, WA"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/softwaresalt"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/softwaresalt"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/softwaresalt"

@@ -1,4 +1,15 @@
-# When to Hack a DACPAC
+---
+title: "When to Hack a DACPAC"
+date: 2023-08-26
+layout: single
+categories:
+  - Technical
+tags:
+  - SQL
+  - Deployment
+---
+
+## When to Hack a DACPAC
 
 ## Scenario
 
@@ -84,10 +95,10 @@ We need to implement a version of the DACPAC that contains all data and model in
 3. Find the ServerVersion node in the XML contents.  It will look something like this:
 
     ```xml
-        <ServerVersion>Microsoft SQL Server 2019 (RTM-GDR) (KB5021125) - 15.0.2101.7 (X64) 
-    	Jan 23 2023 13:08:05 
-    	Copyright (C) 2019 Microsoft Corporation
-    	Developer Edition (64-bit) on Windows 10 Enterprise 10.0 &lt;X64&gt; (Build 22621: ) (Hypervisor)
+    <ServerVersion>Microsoft SQL Server 2019 (RTM-GDR) (KB5021125) - 15.0.2101.7 (X64) 
+      Jan 23 2023 13:08:05 
+      Copyright (C) 2019 Microsoft Corporation
+      Developer Edition (64-bit) on Windows 10 Enterprise 10.0 &lt;X64&gt; (Build 22621: ) (Hypervisor)
     </ServerVersion>
     ```
 
@@ -95,8 +106,8 @@ We need to implement a version of the DACPAC that contains all data and model in
 
     ```xml
     <ServerVersion>Microsoft SQL Azure (RTM) - 12.0.2000.8 
-    	Mar  8 2023 17:58:50 
-    	Copyright (C) 2022 Microsoft Corporation
+      Mar  8 2023 17:58:50 
+      Copyright (C) 2022 Microsoft Corporation
     </ServerVersion>
     ```
 

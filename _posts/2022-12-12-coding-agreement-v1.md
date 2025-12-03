@@ -1,4 +1,15 @@
-# Coding Agreement: Python
+---
+title: "Coding Agreement: Python"
+date: 2022-12-12
+layout: single
+categories:
+  - Technical
+tags:
+  - Teams
+  - Process
+---
+
+## Coding Agreement: Python
 
 ## Purpose of this document
 
@@ -88,13 +99,13 @@ print(x)
 * `language, spelling`: Class name, function names and variables are written in English. Use grammatically correct names.
 * `class name`: name should start with an uppercase and follow the camlCase convention if more than two words.
 * `function name`:
-    * lowercase, words separated by an underscore.
-    * add `self` argument at first position if the method is a class's method.
-    * if the function's name clashes with a reserved word, append underscore.
-    * use 2 underscores at the beginning for private class's methods.
-    * use 1 underscore at the beginning of a private field.
-    * specify the type of your input parameters
-    * always provide a return type (use 'None' if 'void').
+  * lowercase, words separated by an underscore.
+  * add `self` argument at first position if the method is a class's method.
+  * if the function's name clashes with a reserved word, append underscore.
+  * use 2 underscores at the beginning for private class's methods.
+  * use 1 underscore at the beginning of a private field.
+  * specify the type of your input parameters
+  * always provide a return type (use 'None' if 'void').
 
 ```python
 class CatalogInformation:

@@ -1,4 +1,15 @@
-# **Chimera Coding**
+---
+title: "Chimera Coding"
+date: 2025-11-01
+layout: single
+categories:
+  - Engineering/AI
+tags:
+  - AI
+  - Process
+---
+
+## **Chimera Coding**
 
 ## **Why the Future of Engineering is in the Process.**
 
