@@ -1,4 +1,15 @@
-# Azure DevOps Guidance: Sprint Planning
+---
+title: "Azure DevOps Guidance: Sprint Planning"
+date: 2023-08-29
+layout: single
+categories:
+  - DevOps
+tags:
+  - Agile
+  - Process
+---
+
+## Azure DevOps Guidance: Sprint Planning
 
 ## Planning
 
@@ -22,7 +33,7 @@ Ideally, we would have user stories planned out multiple sprints, but this isn't
 
 Try to put your user stories in stack rank order based on the order of importance in which that work needs to be done, such as dependencies.  As a group, we can reorder later based on group priorities.  To stack rank your user story, either drag the item into position or open the context menu for the item by selecting the elipsis next to the title and select "Move to position..."
 
-When creating the user story, be sure to set the Story Size using the [story point guidelines](./AzDO.Guidelines.StoryPoints.md).  This is your range-based, approximate sizing for this area of work.
+When creating the user story, be sure to set the Story Size using the [story point guidelines](./2023-08-29-story-points.md).  This is your range-based, approximate sizing for this area of work.
 
 ![Backlog Planning](/assets/images/UserStory.Backlog.Planning.png)
 
@@ -30,7 +41,7 @@ After creating a user story, be sure to map it to a parent feature.  We always w
 
 ![Backlog Mapping](/assets/images/UserStory.Backlog.Mapping.png)
 
-### Tips for virtual sprint planning:
+### Tips for virtual sprint planning
 
 - Be really prepared - communicate plans clearly ahead of time, so that everyone has clear expectations.
 - Use a video conferencing tool that allows for breakout sessions
@@ -103,7 +114,7 @@ Filling out the implementation details is optional, but can be helpful in provid
 
 The majority of observed national holidays land on either the beginning or end of the week. Individual's also frequently leverage weekends to create extended, contiguous days off.  To get the most attendance out of the most important sprint ceremonies, such as planning and reviews & demos, the sprints will be scheduled to run every two weeks, starting on Wednesdays and ending on Tuesdays.
 
-#### Sprint Planning
+### Sprint Planning
 
 Typically, sprint planning should take up to 2 hours per week according to scrum.org, but we find that people have a hard time genuinely focusing for that long, nor is everyone productive during that time. Our teams have also been operating remotely for years, making the impact of in-person planning infeasable. To adapt and try to make everyone as productive as possible, we are scheduling the sprint planning sessions for no more than 90 minutes.  However, to achieve our planning objectives within 90 minutes, pre-work must be done.
 
@@ -111,11 +122,11 @@ Throughout the week prior to planning, each team member should coordinate with t
 
 **IMPORTANT:** To simplify planning during the backlog assignment process, limit the size of each user story to no more than 5, which constitutes up to 3 days of work.  Smaller workloads are easier to estimate, leading to more accurate estimates.  Stories larger than 5 should be broken down into more detail.  Smaller stories are also easier to complete within a sprint and present lower risk to delivering committed work.  Using this system, the cumulative story points per person should not exceed 20.
 
-#### Story Refinement
+### Story Refinement
 
 During the planning session, refer to the guide for what makes a good story to properly flesh the stories out.
 
-#### Tasking
+### Tasking
 
 Throughout the week prior to planning, you should try to stub out tasks for each story assigned to the upcoming sprint and provide a preliminary estimate in hours.  Try to limit task hours to no more than 6.  If the hours estimate for a given task exceeds 6 hours, then you have probably not broken down the work into sufficiently small pieces for individual delivery.  As stated earlier, there is value in decomposing work into smaller units: they are easier to understand, to estimate, and to deliver.  You should make a disciplined practice of decomposing work into small units of deliver.
 

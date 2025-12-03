@@ -1,4 +1,15 @@
-# Azure DevOps Guidance: Story Points Scale Reference
+---
+title: "Azure DevOps Guidance: Story Points Scale Reference"
+date: 2023-08-29
+layout: single
+categories:
+  - DevOps
+tags:
+  - Agile
+  - Process
+---
+
+## Azure DevOps Guidance: Story Points Scale Reference
 
 Story point | ~effort days | ~effort hours
 | - | - | -

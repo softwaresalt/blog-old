@@ -1,4 +1,15 @@
-# Azure DevOps Guidance: Setup Requirements
+---
+title: "Azure DevOps Guidance: Setup Requirements"
+date: 2023-08-29
+layout: single
+categories:
+  - DevOps
+tags:
+  - Agile
+  - Process
+---
+
+## Azure DevOps Guidance: Setup Requirements
 
 ## Custom Setup & Configuration
 

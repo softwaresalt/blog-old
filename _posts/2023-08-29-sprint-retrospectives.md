@@ -1,4 +1,15 @@
-# Azure DevOps Guidance: Sprint Retrospectives
+---
+title: "Azure DevOps Guidance: Sprint Retrospectives"
+date: 2023-08-29
+layout: single
+categories:
+  - DevOps
+tags:
+  - Agile
+  - Process
+---
+
+## Azure DevOps Guidance: Sprint Retrospectives
 
 ## Current Team Practice
 
@@ -89,7 +100,7 @@ Over time, the group becomes more comfortable, and people feel they can safely s
 
 Therefore: Evolve to a more open format. Retain a way for someone to request a safer format when they think the team needs it.
 
-Example: Instead of placing sticky notes, let people call out topics to a facilitator. 
+Example: Instead of placing sticky notes, let people call out topics to a facilitator.
 
 Example: Let others on the team facilitate the review.
 

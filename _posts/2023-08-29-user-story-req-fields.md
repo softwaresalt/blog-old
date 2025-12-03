@@ -1,7 +1,18 @@
-# Azure DevOps Guidance: User Story Requirements
+---
+title: "Azure DevOps Guidance: User Story Requirements"
+date: 2023-08-29
+layout: single
+categories:
+  - DevOps
+tags:
+  - Agile
+  - Process
+---
+
+## Azure DevOps Guidance: User Story Requirements
 
 This definition is specific to Azure DevOps user stories. Other systems, such as Jira, will have a different set of fields with some overlaps.
-Some projects will be based on a customer's tenant that may not be customizable to includes these additional fields.  For more details, see the section on [what a good user story looks like](/_posts/2023-02-28-azure-devops-guidance-sprint-planning.md).
+Some projects will be based on a customer's tenant that may not be customizable to includes these additional fields.  For more details, see the section on [what a good user story looks like](2023-08-29-sprint-planning.md).
 
 ## Main Fields
 

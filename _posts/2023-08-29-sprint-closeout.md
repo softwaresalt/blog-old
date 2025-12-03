@@ -1,4 +1,15 @@
-# Azure DevOps Guidance: Sprint Close-out
+---
+title: "Azure DevOps Guidance: Sprint Close-out"
+date: 2023-08-29
+layout: single
+categories:
+  - DevOps
+tags:
+  - Agile
+  - Process
+---
+
+## Azure DevOps Guidance: Sprint Close-out
 
 At the end of each sprint are some basic tasks that each of us need to do to close out a sprint.  By end of day on the last day of the sprint, each team member should have closed out all work assigned to themselves in the sprint taskboard.
 
@@ -40,4 +51,3 @@ Once a user story has been committed to in a sprint, it should be tagged for the
     1. By default, the Split! function will include all New or Active tasks and ignore all closed tasks.
     1. Following the above process, you should only have tasks on the board that are either New or Closed, which allows you to keep all tasks automatically selected for reassignment to the newly split user story.
     1. New user story is automatically assigned to the next sprint, but you can change that and reassign to the backlog when the story opens up in ADO.
-

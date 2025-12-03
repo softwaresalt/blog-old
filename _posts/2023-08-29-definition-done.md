@@ -1,4 +1,15 @@
-# Azure DevOps Guidance: Definition Of Done
+---
+title: "Azure DevOps Guidance: Definition Of Done"
+date: 2023-08-29
+layout: single
+categories:
+  - DevOps
+tags:
+  - Agile
+  - Process
+---
+
+## Azure DevOps Guidance: Definition Of Done
 
 ## What is it?
 

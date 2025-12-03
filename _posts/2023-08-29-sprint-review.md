@@ -1,4 +1,15 @@
-# Azure DevOps Guidance: Sprint Reviews
+---
+title: "Azure DevOps Guidance: Sprint Reviews"
+date: 2023-08-29
+layout: single
+categories:
+  - DevOps
+tags:
+  - Agile
+  - Process
+---
+
+## Azure DevOps Guidance: Sprint Reviews
 
 ## What do we do in a sprint review/demo?
 
